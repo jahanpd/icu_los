@@ -33,11 +33,11 @@ In our sensitivity analysis, this approach has superior results, compared to tra
 
 ## Environmental Variables
 
-IN_DATA="/absolute/path/to/your/unprocessed/icu/los/dataset"
-OUT_DIR="/absolute/path/to/a/working/directory/to/save/results/and/temp/files/to"
-VOYAGE_KEY="api-key-for-embedding-model-if-needing-to-do-further-embedding"
-DATA_DICT="/absolute/path/to/data_dict.csv"
-DIAG_MAP="/absolute/path/to/diagnosis_groupings.csv"
+- IN_DATA="/absolute/path/to/your/unprocessed/icu/los/dataset"
+- OUT_DIR="/absolute/path/to/a/working/directory/to/save/results/and/temp/files/to"
+- VOYAGE_KEY="api-key-for-embedding-model-if-needing-to-do-further-embedding"
+- DATA_DICT="/absolute/path/to/data_dict.csv"
+- DIAG_MAP="/absolute/path/to/diagnosis_groupings.csv"
 
 ## Notebooks
 An example notebook, example.ipynb, shows a possible usage of our high level api.
